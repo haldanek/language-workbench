@@ -1,15 +1,25 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
-	"name": "Default Linux Universal",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"name": "Debian",
   	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/dotnet:2": {},
-		"ghcr.io/devcontainers/features/java:1": {},
+		"ghcr.io/devcontainers/features/java:1": {
+			"installGradle": true,
+			"installMaven": true,
+			"version": "17",
+			"jdkDistro": "ms",
+			"gradleVersion": "latest",
+			"mavenVersion": "latest"
+		},
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers-contrib/features/ts-node:1": {}
+	},
+	"portsAttributes": {
+	  "80": {
+		"requireLocalPort": true,
+		"elevateIfNeeded": true
+	  }
 	},
 	"customizations": {
 		"vscode": {
@@ -19,7 +29,8 @@
 				"esbenp.prettier-vscode",
 				"donjayamanne.python-extension-pack",
 				"ms-vscode.vscode-typescript-next",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"ritwickdey.LiveServer"
 			]
 		}
 	}

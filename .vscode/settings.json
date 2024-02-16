@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "c-sharp.sln"
+    "dotnet.defaultSolution": "c-sharp.sln",
+    "java.compile.nullAnalysis.mode": "automatic"
 }

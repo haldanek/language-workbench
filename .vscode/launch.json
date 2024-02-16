@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Java Debugger: Current",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        },
+        {
+            "name": "C#: c-sharp",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/c-sharp/c-sharp.csproj",
+            "launchConfigurationId": "TargetFramework=;c-sharp"
+        }
+    ]
+}

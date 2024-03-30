@@ -4,7 +4,7 @@
 
 1. Open a new terminal and navigate to this directory.
 ```bash
-d typescript
+cd typescript
 ```
 2. Install node dependencies using `pnpm`.
 ```bash

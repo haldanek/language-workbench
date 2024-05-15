@@ -25,12 +25,12 @@
 		"vscode": {
 			"extensions": [
 				"vscjava.vscode-gradle",
-				"vscjava.vscode-java-pack",
 				"esbenp.prettier-vscode",
 				"donjayamanne.python-extension-pack",
 				"ms-vscode.vscode-typescript-next",
 				"ms-dotnettools.csdevkit",
-				"ritwickdey.LiveServer"
+				"ritwickdey.LiveServer",
+				"Oracle.oracle-java"
 			]
 		}
 	}

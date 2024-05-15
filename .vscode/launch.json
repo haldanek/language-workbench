@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.codedifferently.App",
+            "projectName": "codedifferently-app"
+        },
+        {
+            "type": "java",
             "name": "Java Debugger: Current",
             "request": "launch",
             "mainClass": "${file}"

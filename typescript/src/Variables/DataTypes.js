@@ -1,0 +1,14 @@
+var songTitle = "Heahlah Dancing";
+var songDuration = 4;
+var isFavorite = true;
+console.log("Title: ".concat(songTitle));
+console.log("Duration: ".concat(songDuration, " minutes"));
+console.log("Is it a favorite? ".concat(isFavorite));
+var favSong = "Numb";
+var arTist = "Linkin Park";
+var songYear = 2003;
+var onPlaylist = true;
+console.log("Favorite Song: ".concat(favSong));
+console.log("By Artist: ".concat(arTist));
+console.log("Release Year: ".concat(songYear));
+console.log("Is it on your playlist?: ".concat(onPlaylist));
